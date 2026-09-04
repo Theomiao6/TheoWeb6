@@ -28,6 +28,11 @@ hugo_stats.json
 # Dependencies
 node_modules/
 
+# Local build tools and package-manager cache
+.tools/
+.pnpm-store/
+pnpm-workspace.yaml
+
 # ============================================================================
 # Environment & Configuration
 # ============================================================================
