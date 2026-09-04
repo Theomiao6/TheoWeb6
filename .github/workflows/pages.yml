@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Build site
         env:
           HUGO_ENV: production
