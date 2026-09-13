@@ -81,7 +81,32 @@
 #experience > .flex,
 #awards > .flex,
 #interests > .flex {
-  max-width: 72rem;
+  max-width: 68rem;
+}
+
+#experience,
+#awards,
+#interests {
+  padding-top: 2.75rem !important;
+  padding-bottom: 2.75rem !important;
+}
+
+#experience > .flex,
+#awards > .flex,
+#interests > .flex {
+  align-items: stretch;
+  gap: 0.85rem;
+}
+
+#experience > .flex > .mb-6,
+#awards > .flex > .mb-6,
+#interests > .flex > .mb-6 {
+  align-self: flex-start;
+  margin-bottom: 0.55rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.14);
+  padding-bottom: 0.35rem;
+  font-size: 1.65rem;
+  line-height: 1.25;
 }
 
 #education .prose,
@@ -160,22 +185,22 @@
 .theo-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .theo-card {
   min-height: 100%;
   border: 1px solid rgba(15, 23, 42, 0.14);
-  border-radius: 8px;
-  padding: 1rem;
+  border-radius: 6px;
+  padding: 0.85rem;
   background: rgba(255, 255, 255, 0.72);
 }
 
 .theo-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-top: 1rem;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
 }
 
 .theo-tags span,
@@ -184,42 +209,69 @@
   background: rgb(248, 250, 252);
   color: rgb(51, 65, 85);
   border: 1px solid rgba(15, 23, 42, 0.12);
-  padding: 0.35rem 0.65rem;
-  font-size: 0.86rem;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.8rem;
   font-weight: 650;
 }
 
 .theo-list {
   display: grid;
-  gap: 0.85rem;
+  gap: 0;
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
 }
 
 .theo-list-item {
-  border-left: 3px solid rgb(30, 58, 95);
-  padding: 0.2rem 0 0.2rem 1rem;
+  display: grid;
+  grid-template-columns: minmax(13rem, 0.55fr) minmax(0, 1fr);
+  column-gap: 1.5rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.12);
+  border-left: 0;
+  padding: 0.8rem 0;
 }
 
 .theo-list-item strong,
 .theo-list-item span {
   display: block;
+  grid-column: 1;
 }
 
 .theo-list-item span {
-  margin: 0.15rem 0 0.4rem;
+  margin: 0.1rem 0 0;
   color: rgb(71, 85, 105);
 }
 
+.theo-list-item p {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
 .theo-grid-compact .theo-card {
-  padding: 0.9rem;
+  padding: 0.8rem;
+}
+
+.theo-grid-compact .theo-card h3 {
+  margin-bottom: 0.35rem;
 }
 
 .theo-notes {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  gap: 0.45rem;
+  padding-top: 0.25rem;
 }
 
 .dark .theo-feature {
+  border-color: rgba(226, 232, 240, 0.18);
+}
+
+.dark #experience > .flex > .mb-6,
+.dark #awards > .flex > .mb-6,
+.dark #interests > .flex > .mb-6,
+.dark .theo-list,
+.dark .theo-list-item {
   border-color: rgba(226, 232, 240, 0.18);
 }
 
@@ -288,5 +340,15 @@
   .theo-feature {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .theo-list-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.35rem;
+  }
+
+  .theo-list-item p {
+    grid-column: 1;
+    grid-row: auto;
   }
 }
