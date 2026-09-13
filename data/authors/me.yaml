@@ -10,9 +10,11 @@ name:
   pronouns: he/him
 postnominals:
   - BSc
-role: Applied Mathematics Student
+role: Applied Mathematics
 bio: |
-  Applied Mathematics student at the University of Liverpool.
+  Applied Mathematics student at the University of Liverpool, interested in statistical machine learning, stochastic processes, and quantitative research.
+
+  My current work focuses on distortion risk measures, stochastic dominance, and the statistical reliability of data-driven models.
 
 affiliations:
   - name: University of Liverpool
@@ -28,17 +30,26 @@ links:
   - icon: envelope
     url: mailto:miao050805@outlook.com
 
-interests:
-  - Statistical Machine Learning
-  - Stochastic Processes
+interests: []
+education: []
 
-education:
-  - degree: Bsc in Applied Mathematics
-    institution: University of Liverpool
-    start: 2023-09-01
-    end: 2027-05-31
+experience:
+  - role: Quant Research Intern
+    org: Tianyidao Investment Management
+    summary: |
+      Worked on quantitative research problems involving statistical modelling, factor analysis, and empirical validation.
+  - role: Research Work
+    org: University of Liverpool
+    summary: |
+      Current work on distortion risk measures, stochastic dominance, quantile representations, and endpoint conditions.
 
-experience: []
+awards:
+  - title: Willis Prize in Mathematics
+    awarder: University of Liverpool
+  - title: XJTLU Excellence Scholarship
+    awarder: XJTLU
+  - title: Academic Merit Scholarship
+    awarder: University of Liverpool
+
 skills: []
 languages: []
-awards: []

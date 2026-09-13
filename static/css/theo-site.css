@@ -1,0 +1,292 @@
+.home-section:first-of-type {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#section-resume-biography-3 > div.absolute.inset-0 {
+  display: none;
+}
+
+#section-resume-biography-3 .resume-biography {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+#section-resume-biography-3 .avatar {
+  border-width: 1px !important;
+  border-color: rgba(15, 23, 42, 0.12) !important;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08) !important;
+}
+
+#section-resume-biography-3 p.text-primary-600,
+#section-resume-biography-3 p.dark\:text-primary-400 {
+  color: rgb(30, 58, 95) !important;
+}
+
+#section-resume-biography-3 .flex.flex-wrap.justify-center.gap-4 {
+  gap: 0.6rem;
+}
+
+#section-resume-biography-3 a[aria-label="brands/github"],
+#section-resume-biography-3 a[aria-label="brands/linkedin"],
+#section-resume-biography-3 a[aria-label="brands/x"],
+#section-resume-biography-3 a[aria-label="envelope"] {
+  width: 2.35rem !important;
+  height: 2.35rem !important;
+  background: transparent !important;
+  border-color: rgba(15, 23, 42, 0.16) !important;
+  box-shadow: none !important;
+  color: rgb(51, 65, 85) !important;
+  transform: none !important;
+}
+
+#section-resume-biography-3 a[aria-label="brands/github"]:hover,
+#section-resume-biography-3 a[aria-label="brands/linkedin"]:hover,
+#section-resume-biography-3 a[aria-label="brands/x"]:hover,
+#section-resume-biography-3 a[aria-label="envelope"]:hover {
+  background: rgba(15, 23, 42, 0.04) !important;
+  box-shadow: none !important;
+  color: rgb(15, 23, 42) !important;
+  transform: none !important;
+}
+
+#section-resume-biography-3 .md\:col-span-8 > .mb-12 > .flex.items-center.gap-4.mb-8 > div:first-child {
+  display: none;
+}
+
+#section-resume-biography-3 h2 {
+  font-size: 1.45rem !important;
+  letter-spacing: 0 !important;
+}
+
+#section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"] {
+  background: rgb(15, 23, 42) !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  font-size: 1rem !important;
+  font-weight: 650 !important;
+  padding: 0.65rem 1rem !important;
+  transform: none !important;
+}
+
+#section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"]:hover {
+  background: rgb(30, 41, 59) !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+#education > .flex,
+#research > .flex,
+#projects > .flex,
+#experience > .flex,
+#awards > .flex,
+#interests > .flex {
+  max-width: 72rem;
+}
+
+#education .prose,
+#research .prose,
+#projects .prose,
+#experience .prose,
+#awards .prose,
+#interests .prose {
+  max-width: none;
+  width: 100%;
+}
+
+.theo-education {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(15, 23, 42, 0.14);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.14);
+}
+
+.theo-education strong {
+  font-size: 1.2rem;
+}
+
+.theo-education span {
+  color: rgb(51, 65, 85);
+}
+
+.theo-education p {
+  margin: 0;
+  color: rgb(30, 58, 95);
+  font-weight: 700;
+}
+
+.theo-feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.35rem 0;
+  border-top: 1px solid rgba(15, 23, 42, 0.14);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.14);
+}
+
+.theo-feature h3,
+.theo-card h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.theo-feature p,
+.theo-card p,
+.theo-list-item p {
+  margin: 0;
+  color: rgb(71, 85, 105);
+}
+
+.theo-eyebrow {
+  margin-bottom: 0.4rem !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(51, 65, 85) !important;
+}
+
+.theo-link {
+  flex: 0 0 auto;
+  border: 1px solid rgb(15, 23, 42);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.theo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.theo-card {
+  min-height: 100%;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.theo-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.theo-tags span,
+.theo-notes span {
+  border-radius: 999px;
+  background: rgb(248, 250, 252);
+  color: rgb(51, 65, 85);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 0.35rem 0.65rem;
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.theo-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.theo-list-item {
+  border-left: 3px solid rgb(30, 58, 95);
+  padding: 0.2rem 0 0.2rem 1rem;
+}
+
+.theo-list-item strong,
+.theo-list-item span {
+  display: block;
+}
+
+.theo-list-item span {
+  margin: 0.15rem 0 0.4rem;
+  color: rgb(71, 85, 105);
+}
+
+.theo-grid-compact .theo-card {
+  padding: 0.9rem;
+}
+
+.theo-notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.dark .theo-feature {
+  border-color: rgba(226, 232, 240, 0.18);
+}
+
+.dark .theo-education {
+  border-color: rgba(226, 232, 240, 0.18);
+}
+
+.dark .theo-education span {
+  color: rgb(203, 213, 225);
+}
+
+.dark .theo-card {
+  border-color: rgba(226, 232, 240, 0.18);
+  background: rgba(15, 23, 42, 0.55);
+}
+
+.dark .theo-feature p,
+.dark .theo-card p,
+.dark .theo-list-item p,
+.dark .theo-list-item span {
+  color: rgb(203, 213, 225);
+}
+
+.dark .theo-link {
+  border-color: rgb(226, 232, 240);
+}
+
+.dark #section-resume-biography-3 .avatar {
+  border-color: rgba(226, 232, 240, 0.28) !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18) !important;
+}
+
+.dark #section-resume-biography-3 p.text-primary-600,
+.dark #section-resume-biography-3 p.dark\:text-primary-400 {
+  color: rgb(191, 219, 254) !important;
+}
+
+.dark #section-resume-biography-3 a[aria-label="brands/github"],
+.dark #section-resume-biography-3 a[aria-label="brands/linkedin"],
+.dark #section-resume-biography-3 a[aria-label="brands/x"],
+.dark #section-resume-biography-3 a[aria-label="envelope"] {
+  border-color: rgba(226, 232, 240, 0.22) !important;
+  color: rgb(203, 213, 225) !important;
+}
+
+.dark #section-resume-biography-3 a[aria-label="brands/github"]:hover,
+.dark #section-resume-biography-3 a[aria-label="brands/linkedin"]:hover,
+.dark #section-resume-biography-3 a[aria-label="brands/x"]:hover,
+.dark #section-resume-biography-3 a[aria-label="envelope"]:hover {
+  background: rgba(226, 232, 240, 0.08) !important;
+  color: rgb(248, 250, 252) !important;
+}
+
+.dark .theo-tags span,
+.dark .theo-notes span {
+  background: rgba(37, 99, 235, 0.22);
+  color: rgb(191, 219, 254);
+  border-color: rgba(191, 219, 254, 0.2);
+}
+
+@media (max-width: 900px) {
+  .theo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .theo-feature {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

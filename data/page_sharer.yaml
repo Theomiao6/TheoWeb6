@@ -1,0 +1,11 @@
+links:
+  - id: x
+    enable: false
+  - id: facebook
+    enable: false
+  - id: email
+    enable: false
+  - id: linkedin
+    enable: false
+  - id: whatsapp
+    enable: false

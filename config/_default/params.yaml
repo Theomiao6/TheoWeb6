@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Personal website of Theo Miao, Applied Mathematics student at the University of Liverpool."
+    description: "Theo Miao's academic portfolio in applied mathematics, statistical machine learning, stochastic processes, and quantitative research."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "theomiao0" # Twitter/X handle for Twitter Cards (without @)

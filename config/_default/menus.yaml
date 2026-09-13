@@ -4,6 +4,18 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
+  - name: About
     url: /
     weight: 10
+  - name: Research
+    url: /#research
+    weight: 20
+  - name: Projects
+    url: /#projects
+    weight: 30
+  - name: CV
+    url: /uploads/yachen-miao-cv.pdf
+    weight: 40
+  - name: Blog
+    url: /blog/
+    weight: 50
