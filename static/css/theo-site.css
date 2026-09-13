@@ -154,6 +154,116 @@
   max-width: 68rem;
 }
 
+#blog {
+  padding-top: 2rem !important;
+}
+
+#research,
+#projects,
+#blog {
+  padding-top: 2.25rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+#research > .flex,
+#projects > .flex,
+#blog > .flex {
+  align-items: stretch;
+}
+
+#blog > div.flex.flex-col.items-center.max-w-prose {
+  width: 100%;
+  max-width: 68rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#research > .flex > .mb-6,
+#projects > .flex > .mb-6,
+#blog > div.flex.flex-col.items-center.max-w-prose {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#research > .flex > .mb-6,
+#projects > .flex > .mb-6,
+#blog > div.flex.flex-col.items-center.max-w-prose > .mb-6 {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1.65rem !important;
+  line-height: 1.25;
+  text-align: center;
+}
+
+#blog > div.flex.flex-col.items-center.px-6 {
+  align-items: stretch;
+  width: 100%;
+  max-width: 68rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#blog .mt-16 {
+  width: 100% !important;
+  max-width: 68rem !important;
+  margin-top: 0 !important;
+}
+
+#blog > div.flex.flex-col.items-center.px-6 > .mt-16 {
+  margin-top: 0 !important;
+  width: 100%;
+  max-width: 68rem;
+}
+
+#blog .mt-16 > .flex {
+  width: 100% !important;
+  max-width: none !important;
+  gap: 0 !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+#blog > div.flex.flex-col.items-center.px-6 > .mt-16 > .flex {
+  max-width: none;
+  gap: 0 !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+#blog article {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 0.6rem 0;
+}
+
+#blog article h2 {
+  font-size: 0.98rem !important;
+  line-height: 1.35 !important;
+}
+
+#blog article p {
+  margin-top: 0.22rem !important;
+  font-size: 0.88rem !important;
+  line-height: 1.45 !important;
+}
+
+#blog article time {
+  margin-bottom: 0 !important;
+  font-size: 0.82rem !important;
+}
+
+#blog article [aria-hidden="true"] {
+  display: none !important;
+}
+
+#blog article h2 div,
+#blog article h2 a > span:first-child {
+  inset: -0.3rem -0.5rem !important;
+  border-radius: 4px !important;
+}
+
 #education {
   padding-top: 1.25rem !important;
   padding-bottom: 2.75rem !important;
@@ -358,6 +468,12 @@
 }
 
 .dark .theo-feature {
+  border-color: rgba(226, 232, 240, 0.18);
+}
+
+.dark #blog > div.flex.flex-col.items-center.max-w-prose > .mb-6,
+.dark #blog > div.flex.flex-col.items-center.px-6 > .mt-16 > .flex,
+.dark #blog article {
   border-color: rgba(226, 232, 240, 0.18);
 }
 
