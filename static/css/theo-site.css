@@ -146,6 +146,7 @@
 
 #education > .flex,
 #research > .flex,
+#blog > .flex,
 #projects > .flex,
 #experience > .flex,
 #awards > .flex,
@@ -199,6 +200,7 @@
 
 #education .prose,
 #research .prose,
+#blog .prose,
 #projects .prose,
 #experience .prose,
 #awards .prose,
@@ -237,6 +239,10 @@
   padding: 1.35rem 0;
   border-top: 1px solid rgba(15, 23, 42, 0.14);
   border-bottom: 1px solid rgba(15, 23, 42, 0.14);
+}
+
+.theo-blog-item {
+  margin-top: 0.15rem;
 }
 
 .theo-feature h3,
@@ -392,6 +398,10 @@
 .dark .theo-list-item p,
 .dark .theo-list-item span {
   color: rgb(203, 213, 225);
+}
+
+.dark .theo-eyebrow {
+  color: rgb(148, 163, 184) !important;
 }
 
 .dark .theo-link {
