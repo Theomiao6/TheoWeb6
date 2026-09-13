@@ -16,6 +16,13 @@ bio: |
 
   My current work focuses on distortion risk measures, stochastic dominance, and the statistical reliability of data-driven models.
 
+  <div class="theo-bio-education">
+    <p class="theo-bio-label">Education</p>
+    <strong>University of Liverpool</strong>
+    <span>BSc Applied Mathematics, 2023-2027</span>
+    <small>Year 2 Average: 93/100 | Ranked 1st | Willis Prize</small>
+  </div>
+
 affiliations:
   - name: University of Liverpool
     url: https://www.liverpool.ac.uk/

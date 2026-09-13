@@ -82,7 +82,7 @@
 
 #section-resume-biography-3 .md\:col-span-8 > .mb-12,
 #section-resume-biography-3 .md\:col-span-8 > .mb-16 {
-  margin-bottom: 1.25rem !important;
+  margin-bottom: 0 !important;
 }
 
 #section-resume-biography-3 .md\:col-span-8 > .mb-12 > .flex.items-center.gap-4.mb-8 {
@@ -112,6 +112,36 @@
 
 #section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"] svg {
   display: none !important;
+}
+
+.theo-bio-education {
+  margin-top: 1.35rem;
+  border-top: 1px solid rgba(15, 23, 42, 0.14);
+  padding-top: 0.8rem;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.theo-bio-education .theo-bio-label {
+  margin: 0 0 0.2rem !important;
+  color: rgb(51, 65, 85);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.theo-bio-education strong {
+  font-size: 1.05rem;
+}
+
+.theo-bio-education span,
+.theo-bio-education small {
+  color: rgb(71, 85, 105);
+}
+
+.theo-bio-education small {
+  font-size: 0.9rem;
+  font-weight: 650;
 }
 
 #education > .flex,
@@ -338,7 +368,17 @@
   border-color: rgba(226, 232, 240, 0.18);
 }
 
+.dark .theo-bio-education {
+  border-color: rgba(226, 232, 240, 0.18);
+}
+
 .dark .theo-education span {
+  color: rgb(203, 213, 225);
+}
+
+.dark .theo-bio-education .theo-bio-label,
+.dark .theo-bio-education span,
+.dark .theo-bio-education small {
   color: rgb(203, 213, 225);
 }
 
