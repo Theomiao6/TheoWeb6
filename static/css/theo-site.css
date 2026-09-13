@@ -264,6 +264,50 @@
   border-radius: 4px !important;
 }
 
+.theo-entry-list {
+  width: 100%;
+  border-top: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+.theo-entry {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 0.35fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 0.6rem 0;
+}
+
+.theo-entry-meta {
+  color: rgb(148, 163, 184);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.theo-entry-body h3 {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.theo-entry-body h3 a {
+  text-decoration: none !important;
+}
+
+.theo-entry-body p {
+  margin: 0.22rem 0 0;
+  color: rgb(71, 85, 105);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.theo-entry-info {
+  margin-top: 0.3rem;
+  color: rgb(71, 85, 105);
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
 #education {
   padding-top: 1.25rem !important;
   padding-bottom: 2.75rem !important;
@@ -473,7 +517,9 @@
 
 .dark #blog > div.flex.flex-col.items-center.max-w-prose > .mb-6,
 .dark #blog > div.flex.flex-col.items-center.px-6 > .mt-16 > .flex,
-.dark #blog article {
+.dark #blog article,
+.dark .theo-entry-list,
+.dark .theo-entry {
   border-color: rgba(226, 232, 240, 0.18);
 }
 
@@ -512,11 +558,14 @@
 .dark .theo-feature p,
 .dark .theo-card p,
 .dark .theo-list-item p,
-.dark .theo-list-item span {
+.dark .theo-list-item span,
+.dark .theo-entry-body p,
+.dark .theo-entry-info {
   color: rgb(203, 213, 225);
 }
 
-.dark .theo-eyebrow {
+.dark .theo-eyebrow,
+.dark .theo-entry-meta {
   color: rgb(148, 163, 184) !important;
 }
 
@@ -575,5 +624,10 @@
   .theo-list-item p {
     grid-column: 1;
     grid-row: auto;
+  }
+
+  .theo-entry {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 }
