@@ -297,47 +297,70 @@
 }
 
 .theo-entry-list {
-  width: 100%;
-  border-top: 1px solid rgba(15, 23, 42, 0.12);
+  width: 100% !important;
+  max-width: none !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.12) !important;
 }
 
 .theo-entry {
-  display: grid;
-  grid-template-columns: var(--theo-list-meta) minmax(0, 1fr);
-  gap: var(--theo-list-gap);
-  border-bottom: 1px solid rgba(15, 23, 42, 0.12);
-  padding: 0.6rem 0;
+  display: grid !important;
+  grid-template-columns: var(--theo-list-meta) minmax(0, 1fr) !important;
+  gap: var(--theo-list-gap) !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.12) !important;
+  padding: 0.6rem 0 !important;
 }
 
 .theo-entry-meta {
-  color: rgb(148, 163, 184);
-  font-size: 0.82rem;
-  line-height: 1.45;
+  color: rgb(148, 163, 184) !important;
+  font-size: 0.82rem !important;
+  line-height: 1.45 !important;
 }
 
 .theo-entry-body h3 {
-  margin: 0;
-  font-size: 0.98rem;
-  line-height: 1.35;
+  margin: 0 !important;
+  font-size: 0.98rem !important;
+  line-height: 1.35 !important;
+  font-weight: 650 !important;
 }
 
 .theo-entry-body h3 a {
+  color: inherit !important;
   text-decoration: none !important;
 }
 
 .theo-entry-body p {
-  margin: 0.22rem 0 0;
-  color: rgb(71, 85, 105);
-  font-size: 0.88rem;
-  line-height: 1.45;
+  margin: 0.22rem 0 0 !important;
+  color: rgb(71, 85, 105) !important;
+  font-size: 0.88rem !important;
+  line-height: 1.45 !important;
 }
 
 .theo-entry-info {
-  margin-top: 0.3rem;
-  color: rgb(71, 85, 105);
-  font-size: 0.82rem;
-  font-weight: 650;
-  line-height: 1.45;
+  margin-top: 0.3rem !important;
+  color: rgb(71, 85, 105) !important;
+  font-size: 0.82rem !important;
+  font-weight: 650 !important;
+  line-height: 1.45 !important;
+}
+
+#research .prose .theo-entry-list,
+#projects .prose .theo-entry-list,
+#research .prose .theo-entry,
+#projects .prose .theo-entry,
+#research .prose .theo-entry-body,
+#projects .prose .theo-entry-body,
+#research .prose .theo-entry-meta,
+#projects .prose .theo-entry-meta,
+#research .prose .theo-entry-info,
+#projects .prose .theo-entry-info {
+  font-size: inherit !important;
+}
+
+#research .prose .theo-entry-body h3,
+#projects .prose .theo-entry-body h3,
+#research .prose .theo-entry-body p,
+#projects .prose .theo-entry-body p {
+  max-width: none !important;
 }
 
 #education {
