@@ -7,9 +7,14 @@
   display: none;
 }
 
+#section-resume-biography-3 {
+  padding-top: 2rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
 #section-resume-biography-3 .resume-biography {
-  padding-top: 2.25rem !important;
-  padding-bottom: 2.25rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 1.25rem !important;
 }
 
 #section-resume-biography-3 .avatar {
@@ -118,6 +123,25 @@
   max-width: 68rem;
 }
 
+#education {
+  padding-top: 1.25rem !important;
+  padding-bottom: 2.75rem !important;
+}
+
+#education > .flex {
+  align-items: stretch;
+  gap: 0.75rem;
+}
+
+#education > .flex > .mb-6 {
+  align-self: flex-start;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.14);
+  padding-bottom: 0.3rem;
+  font-size: 1.55rem;
+  line-height: 1.25;
+}
+
 #experience,
 #awards,
 #interests {
@@ -156,7 +180,7 @@
 .theo-education {
   display: grid;
   gap: 0.25rem;
-  padding: 1rem 0;
+  padding: 0.85rem 0;
   border-top: 1px solid rgba(15, 23, 42, 0.14);
   border-bottom: 1px solid rgba(15, 23, 42, 0.14);
 }
@@ -302,6 +326,7 @@
 }
 
 .dark #experience > .flex > .mb-6,
+.dark #education > .flex > .mb-6,
 .dark #awards > .flex > .mb-6,
 .dark #interests > .flex > .mb-6,
 .dark .theo-list,
