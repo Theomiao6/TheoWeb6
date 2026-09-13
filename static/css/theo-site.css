@@ -8,19 +8,35 @@
 }
 
 #section-resume-biography-3 .resume-biography {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 2.25rem !important;
+  padding-bottom: 2.25rem !important;
 }
 
 #section-resume-biography-3 .avatar {
   border-width: 1px !important;
   border-color: rgba(15, 23, 42, 0.12) !important;
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08) !important;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06) !important;
 }
 
 #section-resume-biography-3 p.text-primary-600,
 #section-resume-biography-3 p.dark\:text-primary-400 {
   color: rgb(30, 58, 95) !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1 {
+  gap: 2.25rem !important;
+}
+
+#section-resume-biography-3 .md\:col-span-4 {
+  gap: 1rem !important;
+}
+
+#section-resume-biography-3 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 0.45rem !important;
+}
+
+#section-resume-biography-3 h1 {
+  font-size: clamp(2rem, 3vw, 2.75rem) !important;
 }
 
 #section-resume-biography-3 .flex.flex-wrap.justify-center.gap-4 {
@@ -55,8 +71,22 @@
 }
 
 #section-resume-biography-3 h2 {
-  font-size: 1.45rem !important;
+  font-size: 1.7rem !important;
   letter-spacing: 0 !important;
+}
+
+#section-resume-biography-3 .md\:col-span-8 > .mb-12,
+#section-resume-biography-3 .md\:col-span-8 > .mb-16 {
+  margin-bottom: 1.25rem !important;
+}
+
+#section-resume-biography-3 .md\:col-span-8 > .mb-12 > .flex.items-center.gap-4.mb-8 {
+  margin-bottom: 1rem !important;
+}
+
+#section-resume-biography-3 .prose p {
+  margin-top: 0 !important;
+  margin-bottom: 0.8rem !important;
 }
 
 #section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"] {
@@ -73,6 +103,10 @@
   background: rgb(30, 41, 59) !important;
   box-shadow: none !important;
   transform: none !important;
+}
+
+#section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"] svg {
+  display: none !important;
 }
 
 #education > .flex,
