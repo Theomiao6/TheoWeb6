@@ -94,7 +94,7 @@
   margin-bottom: 0.8rem !important;
 }
 
-#section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"] {
+#section-resume-biography-3 a[href$="/uploads/yachen-miao-cv.pdf"] {
   background: rgb(15, 23, 42) !important;
   border-radius: 4px !important;
   box-shadow: none !important;
@@ -104,13 +104,13 @@
   transform: none !important;
 }
 
-#section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"]:hover {
+#section-resume-biography-3 a[href$="/uploads/yachen-miao-cv.pdf"]:hover {
   background: rgb(30, 41, 59) !important;
   box-shadow: none !important;
   transform: none !important;
 }
 
-#section-resume-biography-3 a[href="/uploads/yachen-miao-cv.pdf"] svg {
+#section-resume-biography-3 a[href$="/uploads/yachen-miao-cv.pdf"] svg {
   display: none !important;
 }
 
